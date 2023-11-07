@@ -9,11 +9,6 @@
 /* stile griglia */
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.container-fluid {
     width: 100%;
 }
 
@@ -27,12 +22,6 @@
 
 [class*="col-"] {
     flex: 0 0 auto;
-}
-
-.col {
-    flex-grow: 1;
-    flex-basis: 0;
-    max-width: 100%;
 }
 
 .col-1 {
@@ -143,4 +132,10 @@
 
 .col-offset-12 {
     margin-left: calc((100% / 12) * 12);
+}
+
+/* regole flex way */
+
+.between {
+    justify-content: space-between;
 }
